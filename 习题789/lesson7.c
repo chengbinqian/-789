@@ -414,8 +414,8 @@
 //}
 
 
-#define _CRT_SECURE_NO_WARNINGS 1
-#include<stdio.h>
+//#define _CRT_SECURE_NO_WARNINGS 1
+//#include<stdio.h>
 //int main() {
 //	int a = 0;
 //	int b = 0;
@@ -431,20 +431,20 @@
 //}
 
 
-int main() {
-	int m = 0;
-	while (~scanf("%d", &m))
-	{
-		int i = 0;
-		for (i = 1; i <= m; i++)
-		{
-			int j = 0;
-			for (j = 1; j <= i; j++)
-			{
-				printf("%d * %d = %d  ", j, i, j*i);
-			}
-			printf("\n");
-		}
-	}
-	return 0;
-}
+//int main() {
+//	int m = 0;
+//	while (~scanf("%d", &m))
+//	{
+//		int i = 0;
+//		for (i = 1; i <= m; i++)
+//		{
+//			int j = 0;
+//			for (j = 1; j <= i; j++)
+//			{
+//				printf("%d * %d = %d  ", j, i, j*i);
+//			}
+//			printf("\n");
+//		}
+//	}
+//	return 0;
+//}
